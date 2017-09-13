@@ -7,7 +7,7 @@
   <body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
     
     <div style="background-color:teal;color:white;padding:4px">
-      <xsl:value-of select="php:function('print_r(scandir(\"./\")')"/>
+      <xsl:value-of select="php:function('$test=time();')"/>
     </div>
 
     <div>
