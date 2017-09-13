@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<? $xslt->registerPHPFunctions() ?> 
 
 <html xsl:version="1.0"
       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -8,7 +7,7 @@
   <body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
     
     <div style="background-color:teal;color:white;padding:4px">
-      <xsl:value-of select="php:function('shell_exec', 'sleep 10')"/>
+      <xsl:value-of select="php:function('echo \"test\"')"/>
     </div>
 
     <div>
