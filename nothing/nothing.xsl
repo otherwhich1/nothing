@@ -9,6 +9,11 @@
 
     <div>
       <?php echo "test" ?>
+      Blah<br>
+    </div>
+
+    <div>
+      End here <br>
     </div>
     
   </body>
